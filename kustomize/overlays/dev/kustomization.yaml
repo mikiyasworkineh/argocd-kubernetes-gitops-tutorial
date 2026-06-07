@@ -8,7 +8,7 @@ namePrefix: dev-
 nameSuffix: ""
 
 patches:
-  - path: replicas-patch.yaml
+  - path: replicas-patch.yaml 
     target:
       kind: Deployment
       name: grade-submission-api
