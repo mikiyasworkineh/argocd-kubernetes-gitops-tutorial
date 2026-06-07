@@ -1,8 +1,8 @@
 replicaCount: 2
 
 image:
-  repository: mikiyasworkineh/kubernetes-course-grade-submission-api
-  tag: stateless
+  repository: rslim087/kubernetes-course-grade-submission-api
+  tag: stateless-v4
   pullPolicy: IfNotPresent
 
 service:
